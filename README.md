@@ -120,8 +120,8 @@ Untuk penelitian saya, evaluasi akan melihat dari:
 
 | Metric | Baseline naif (pooled) | Region-tagged | RAG-lite (referensi) |
 | --- | --- | --- | --- |
-| Akurasi cross-region | ? | ? | ? |
-| Peak VRAM | ? | ? | ? |
-| Latency/gambar | ? | ? | ? |
-| GPU-sec/image | ? | ? | ? |
-| Estimasi biaya/1.000 gambar | ? | ? | ? |
+| Akurasi cross-region | x |  x| x |
+| Peak VRAM | x | x | x |
+| Latency/gambar | x | x | x |
+| GPU-sec/image | x | x | x |
+| Estimasi biaya/1.000 gambar | x | x | x |
