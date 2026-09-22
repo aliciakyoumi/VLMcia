@@ -42,9 +42,9 @@ Problem yang diangkat: MoE konvensional mengasumsikan expert homogen & routing a
 
 | Paper | Dataset training | Dataset evaluasi |
 |---|---|---|
-| ViSD-Boost | CT-RATE, Rad-ChestCT (CT dada), MedVL-CT69K (CT abdomen) | 54 penyakit / 15 organ, zero-shot |
-| RAU | RAOS-CT, Arcade-X-Ray (in-distribution) | LERA-X-Ray, CAMUS-Ultrasound (out-of-distribution) |
-| REN | Kohort 597 pasien / 1.898 scan CT dada (ILD) | Patient-level cross-validation |
+| ViSD-Boost | CT-RATE, Rad-ChestCT (CT dada), MedVL-CT69K (CT abdomen) (https://huggingface.co/datasets/ibrahimhamamci/CT-RATE, https://cvit.duke.edu/resource/rad-chestct-dataset/)| 54 penyakit / 15 organ, zero-shot |
+| RAU | RAOS-CT, Arcade-X-Ray (in-distribution) (https://arcade.grand-challenge.org/, https://www.creatis.insa-lyon.fr/Challenge/camus/databases.html) | LERA-X-Ray, CAMUS-Ultrasound (out-of-distribution) |
+| REN | Kohort 597 pasien / 1.898 scan CT dada (ILD) (private dataset) | Patient-level cross-validation |
 
 ---
 
