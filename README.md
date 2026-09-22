@@ -24,7 +24,7 @@ Jadi fokusnya bukan sekadar "model mana paling akurat lintas region", tapi **tra
 Tiga paper yang relevan ditemukan, masing-masing mewakili strategi anti-entanglement yang berbeda:
 
 ### **A. ViSD-Boost (dekomposisi per-organ sebelum alignment)**
-Cao et al., *ICCV 2025* ([arXiv:2508.03742](https://arxiv.org/abs/2508.03742))
+Cao et al., *ICCV 2025* ([arXiv:2508.03742](https://arxiv.org/pdf/2508.03742))
 
 Problem yang diangkat: menyelaraskan gambar CT (SNR rendah) dengan laporan radiologi (SNR tinggi) menimbulkan *semantic density gap* yang bikin alignment bias sinyal dari organ berbeda saling tertimpa saat direpresentasikan secara global.
 
@@ -34,7 +34,7 @@ Li et al., *arXiv preprint, 2025* ([arXiv:2509.22404](https://arxiv.org/abs/2509
 Problem yang diangkat: VLM umum lemah dalam *reference-based spatial reasoning* dan lokalisasi presisi-tinggi, ditambah data anatomi berlabel ahli yang langka.
 
 ### **C. REN (routing eksplisit per-region via Mixture-of-Experts)**
-Peltekian et al., *arXiv preprint, 2025 (rev. 2026)* ([arXiv:2510.04923](https://arxiv.org/abs/2510.04923))
+Peltekian et al., *arXiv preprint, 2025 (rev. 2026)* ([arXiv:2510.04923](https://arxiv.org/pdf/2509.22404))
 
 Problem yang diangkat: MoE konvensional mengasumsikan expert homogen & routing agnostik-domain — asumsi yang tidak cocok untuk imaging medis di mana pola patologi sangat bergantung pada struktur anatomi lokal (per lobus paru, dst).
 
